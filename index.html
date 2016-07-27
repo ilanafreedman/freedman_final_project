@@ -234,8 +234,30 @@
 			    content: contentString7
 			  });		
 			  marker7.addListener('click', function() {
-    		infowindow7.open(map, marker6);
-  			});	 									
+    		infowindow7.open(map, marker7);
+  			});	 		
+  	var marker8 = new google.maps.Marker({
+					position: {lat: -37.8136, lng: 144.9631},
+					map: map,
+					title: 'melbourne'
+				});
+				var contentString8 = '<div id="content">'+
+				      '<div id="siteNotice">'+
+				      '</div>'+
+				      '<h1 id="firstHeading" class="firstHeading">Melbourne</h1>'+
+				      '<div id="bodyContent">'+
+				      '<p><b>Melbourne</b>,Awesome city, easy to get around with great food, nightlife, arts, etc. We often compared it to San Francisco vs Sydney being like Los Angeles. - Sam Freedman </p>'+
+				      '<a href="Australia.html#melbourne">'+'Melbourne</a> '
+
+				      '</div>'+
+				      '</div>';
+
+			  var infowindow8 = new google.maps.InfoWindow({
+			    content: contentString8
+			  });
+  			marker8.addListener('click', function() {
+    		infowindow8.open(map, marker8);
+  			});									  
 			}
 		</script>
  <script async defer

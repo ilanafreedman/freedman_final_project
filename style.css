@@ -188,7 +188,7 @@ h1 {
 	
 	margin-top: 0px;
 	margin-bottom: 0px;
-/*	background-color: black;*/
+
 	width: 100%;
 	clear: left;
 }
@@ -307,7 +307,7 @@ b {
 #houston img{
 max-width: 65%;
 clear: left;
-background-color: steelblue;
+/*background-color: steelblue;*/
 }
 
 #houston p{
@@ -470,7 +470,7 @@ background-color: steelblue;
 max-width: 45%;
 float: left;
 padding-left: 10px;
-background-color: steelblue;
+/*background-color: steelblue;*/
 padding-right: 15px;
 padding-top: 15px;
 }
@@ -497,6 +497,77 @@ padding-top: 15px;
 	padding-left: 5px;
 	padding-right: 5px;
 }
+#Austalia{
+	margin-bottom: 0px;
+	position: fixed;
+	padding-bottom: 0px;
+	padding-left: 5px;
+	text-align: left;
+	padding-top: 0px;
+	width: 140px;
+	font-size: 15px;
+}
+
+
+#Australia a {
+	
+	text-decoration: none;
+	color: green;
+	display: block;
+/*	padding: 10px;*/
+	padding-top: 0px;
+
+
+}
+#Australia ul {
+	
+	list-style: none;
+	display: inline-block;
+	padding-left: 10px;
+	padding-top: 0px;
+	background:rgba(255,255,255, 0.6);
+
+}
+.oceania {
+	padding-left: 130px;
+	margin: 30px;
+	margin-top: 5px;
+	padding-bottom: 0px;
+}
+
+#melbourne {
+	clear: left;
+	background-color: steelblue;
+	height: 600px;
+}
+
+#melbourne img{
+max-width: 45%;
+float: left;
+padding-left: 10px;
+
+padding-right: 15px;
+padding-top: 15px;
+}
+
+#melbourne p{
+		color: black;
+		padding-left: 15px;
+		margin-top: 5px;
+		margin-bottom: 0px;
+}
+
+.melactivities {
+	margin: 10px;
+	padding-left: 15px;
+	padding-right: 5px;
+}
+.melbfood {
+	margin: 10px;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
 
 #elcalafate img{
 	max-width: 40%;
@@ -622,7 +693,7 @@ padding-top: 15px;
 #ecuador{
 	clear: left;
 	background-color: steelblue;
-	height: 2100px;
+	width: 100%;
 }
 
 #ecuador h1 {
@@ -634,38 +705,28 @@ padding-top: 15px;
 #quito {
 	float: left;
 	width: 95%;
-	padding-left: 20px;
+	/*padding-left: 20px;*/
 	border-style: solid;
+	background-color: steelblue;
 		
 }
 
-#quito ul {
-	list-style-type: circle;
-	background-color: steelblue;
-	float: left;
-
-}
-#quito li{
-	background-color: steelblue;
-	width: 100%;
-}
 #quito h3 {
 	padding-left: 15px;
 	text-align: center;
 
 }
 #quito p {
-	width: 50%;
+	width: 100%;
 	padding-left: 15px;
 	color: black;
 	float: left;
 }
-#quito ul {
-	width: 50%;
+.quitoact {
 	float: left;
-	margin-left: 30px;
+	max-width: 50%
+	
 }
-
 
 #quito img{
 	max-width: 40%;
@@ -673,63 +734,45 @@ padding-top: 15px;
 	padding-top: 20px;
 	margin: 0px;
 	padding-left: 10px;
+	padding-right: 0px;
 }
 #quito h3 {
 	width: 50%;
 	/*text-align: center;*/
 	padding-bottom: 5px; 
 }
-#row2{
-	float: left;
-	width: 100%;
-	padding-left: 100px;
-	margin-right: 30px;
-}
-
 
 #galapagos {
 	float: left;
-	width: 100%;
+	width: 90%;
 	padding-left: 20px;
+	background-color: steelblue;
 		
 }
 
-#galapagos ul {
-	list-style-type: circle;
-	background-color: steelblue;
-	clear: left;
-	padding-right: 20px;
 
-}
-/*#galapagos li{
-	background-color: steelblue;
-	width: 500px;
-	float: left;
-}*/
 
 #galapagos p {
-	width: 90%;
+/*	width: 90%;*/
 	padding-left: 10px; 
 	color: black;
-	clear: left;
+	/*clear: left;*/
 }
-/*#galapagos ul {
-	width: 40%;
-	float: left;
-	margin-left: 10px;
-}*/
+
 .galapagosinfo {
 	float: left;
-	max-width: 55%;
-	margin-top: 10px;
 	margin-bottom: 10px;
+	overflow: auto;
+	max-width: 58%;
+	padding-left: 15px;
 }
 
 #galapagos img{
 	max-width: 40%;
-	float: right;
-	padding-top: 90px;
-	padding-right: 50px;
+	float: left;
+/*	padding-top: 90px;*/
+	/*padding-right: 20px;*/
+		overflow: auto;
 }
 #galapagos h3 {
 	width: 50%;
@@ -742,44 +785,24 @@ padding-top: 15px;
 	float: left;
 	width: 95%;
 	padding-left: 20px;
-	border-style: solid;
-		
-}
-
-#quilotoa ul {
-	list-style-type: circle;
+	border-style: solid;	
 	background-color: steelblue;
-	clear: left;
-	padding-right: 20px;
-
-}
-#quilotoa li{
-	background-color: steelblue;
-	width: 500px;
-	float: left;
 }
 
 #quilotoa p {
-	width: 80%;
+	width: 90%;
 	padding-left: 40px; 
 	color: black;
 	clear: left;
 }
-#quilotoa ul {
-	width: 40%;
-	float: left;
-	margin-left: 10px;
-}
+
 #quilotoa img {
 	width: 50%;
 	padding-left: 10px;
-	clear: right;
-
-}
-/*#cotopaxiinfo{
 	clear: left;
 
-}*/
+}
+
 #cotopaxiinfo p{
 	width: 40%;
 	float: left;
