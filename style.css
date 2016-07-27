@@ -1,3 +1,7 @@
+
+
+
+
 body {
 	background-color: mediumturquoise;
 	padding: 0px;
@@ -164,12 +168,13 @@ h1 {
 	background-color: black;
 	margin-top: 10px;
 	clear: left;
-/*	width: auto;*/
+
 }
 #footer li{
 
 	clear: left;
 	height: 30px;
+
 
 }
 
@@ -177,6 +182,7 @@ h1 {
 
 	padding-bottom: 0px;
 	margin-bottom: 0px;
+	clear: left;
 }
 #footer p {
 	
@@ -288,14 +294,14 @@ p {
 
 }
 
+b {
+	background-color: steelblue;
+}
+
 #houston {
 	clear: left;
 	background-color: steelblue;
 	height: 600px;
-
-}
-b {
-	background-color: steelblue;
 }
 
 #houston img{
@@ -416,6 +422,81 @@ background-color: steelblue;
 	background:rgba(255,255,255, 0.6);
 
 }
+#Asia_nav{
+	margin-bottom: 0px;
+	position: fixed;
+	padding-bottom: 0px;
+	padding-left: 5px;
+	text-align: left;
+	padding-top: 0px;
+	width: 140px;
+	font-size: 15px;
+}
+
+
+#Asia_nav a {
+	
+	text-decoration: none;
+	color: green;
+	display: block;
+/*	padding: 10px;*/
+	padding-top: 0px;
+
+
+}
+#Asia_nav ul {
+	
+	list-style: none;
+	display: inline-block;
+	padding-left: 10px;
+	padding-top: 0px;
+	background:rgba(255,255,255, 0.6);
+
+}
+.asia {
+	padding-left: 130px;
+	margin: 30px;
+	margin-top: 5px;
+	padding-bottom: 0px;
+}
+
+#kathmandu {
+	clear: left;
+	background-color: steelblue;
+/*	height: 600px;*/
+}
+
+#kathmandu img{
+max-width: 45%;
+float: left;
+padding-left: 10px;
+background-color: steelblue;
+padding-right: 15px;
+padding-top: 15px;
+}
+
+#kathmandu p{
+		color: black;
+		padding-left: 15px;
+		margin-top: 5px;
+		margin-bottom: 0px;
+}
+
+.kataitin {
+	margin: 10px;
+	padding-left: 15px;
+	padding-right: 5px;
+}
+.katfood {
+	margin: 10px;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+.katact {
+	margin: 10px;
+	padding-left: 5px;
+	padding-right: 5px;
+}
 
 #elcalafate img{
 	max-width: 40%;
@@ -509,44 +590,33 @@ background-color: steelblue;
 
 
 #wtrek img{
-	max-width: 40%;
+	max-width: 47%;
 	float: left;
 	padding-top: 0px;
 	margin: 10px;
+	padding-bottom: 30px;
 }
 
-#wtrek {
-	float: left;
-	width: 90%;
-	padding-left: 20px;
-	border-style: solid;
-}
-
-#wtrek ul {
-		list-style-type: circle;
-}
-#wtrekcol2 ul {
-	list-style-type: circle;
-	width: 90%;
-}
-#wtrek h3 {
-	padding-left: 15px;
-}
-#wtrek p {
-	width: 50%;
-	padding-left: 15px;
-	float: left;
-	padding-top: 10px;
-}
-#wtrekcol1 ul {
-	width: 40%;
-	float: left;
-}
 #wtrek {
 	float: left;
 	width: 95%;
 	padding-left: 20px;
-	padding-top: 20px;
+	border-style: solid;
+}
+.longlines {
+	width: 100%;
+	list-style-type: circle;
+	clear: left;
+}
+
+#wtrek p {
+	width: 100%;
+}
+.shortlines {
+		list-style-type: circle;
+		width: 50%;
+		float: left;
+		
 }
 
 #ecuador{
@@ -723,7 +793,7 @@ background-color: steelblue;
 }
 #quilotoa h3 {
 	width: 50%;
-	/*text-align: center;*/
+
 	padding-bottom: 5px; 
 	padding-top: 20px;
 }

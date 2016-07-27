@@ -34,8 +34,9 @@
 					<li><a href="NA.html">North America</a></li>
 					<li><a href="SA.html">South America</a></li>
 					<li><a href="Europe.html">Europe</a></li>
-					<li><a href="Asia.html">Asia</a></li>
+					<li><a href="Australia.html">Australia</a></li>
 					<li><a href="Africa.html">Africa</a></li>
+					<li><a href="Asia.html">Asia</a></li>
 				</ul>	
 			</div>
 			<div id="map">
@@ -212,6 +213,28 @@
 			  });		
 			  marker6.addListener('click', function() {
     		infowindow6.open(map, marker6);
+  			});
+  			var marker7 = new google.maps.Marker({
+					position: {lat: 27.717245, lng: 85.323960},
+					map: map,
+					title: 'kathmandu'
+				});
+				var contentString7 = '<div id="content">'+
+				      '<div id="siteNotice">'+
+				      '</div>'+
+				      '<h1 id="firstHeading" class="firstHeading">Kathmandu</h1>'+
+				      '<div id="bodyContent">'+
+				      '<p><b>Kathmandu</b>Kathmandu is the capital city of Nepal. There is a ton of history here and lots of beautiful sites to see. Before heading out on any trekking trip in the Himalayas or riding elephants in Chitwan National Park, you arrive and leave from Kathmandu.  -Laura Silverberg </p>'+
+				      '<a href="Asia.html#kathmandu">'+'Kathmandu</a> '
+
+				      '</div>'+
+				      '</div>';
+
+			  var infowindow7 = new google.maps.InfoWindow({
+			    content: contentString7
+			  });		
+			  marker7.addListener('click', function() {
+    		infowindow7.open(map, marker6);
   			});	 									
 			}
 		</script>
