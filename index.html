@@ -257,6 +257,28 @@
 			  });
   			marker8.addListener('click', function() {
     		infowindow8.open(map, marker8);
+  			});		
+  		var marker9 = new google.maps.Marker({
+					position: {lat: 38.6270, lng: -90.1994},
+					map: map,
+					title: 'stlouis'
+				});
+				var contentString9 = '<div id="content">'+
+				      '<div id="siteNotice">'+
+				      '</div>'+
+				      '<h1 id="firstHeading" class="firstHeading">St. Louis</h1>'+
+				      '<div id="bodyContent">'+
+				      '<p><b>St. Louis</b>,St. Louis is built on the Mississippi river in the heart of the midwest. With French, Spanish, and Native American roots, it stands as a conglomerate of culture and pride. Explore the hidden gems of this homey city, take a stroll in forest park, and wander the french inspired streets of Soulard. - Andrew Lau </p>'+
+				      '<a href="NA.html#stlouis">'+'St. Louis</a> '
+
+				      '</div>'+
+				      '</div>';
+
+			  var infowindow9 = new google.maps.InfoWindow({
+			    content: contentString9
+			  });
+  			marker9.addListener('click', function() {
+    		infowindow9.open(map, marker9);
   			});									  
 			}
 		</script>

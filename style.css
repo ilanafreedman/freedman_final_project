@@ -238,7 +238,7 @@ h3 {
 
 .sfhikes h3{
 float: left;
-background-color: lightseagreen;
+
 width: 100%;
 text-align: left;
 }
@@ -276,7 +276,6 @@ p {
 }
 
 #San_Francisco li {
-	background-color: lightseagreen;
 	padding-left: 10px;
 	margin-left: 30px;
 	padding-top: 5px;
@@ -294,14 +293,14 @@ p {
 
 }
 
-b {
+/*b {
 	background-color: steelblue;
-}
+}*/
 
 #houston {
 	clear: left;
 	background-color: steelblue;
-	height: 600px;
+/*	height: 600px;*/
 }
 
 #houston img{
@@ -321,6 +320,27 @@ clear: left;
 	margin: 10px;
 	padding-left: 5px;
 	padding-right: 5px;
+	padding-left: 20px;
+}
+
+#stlouis{
+	clear: left;
+	background-color: lightsteelblue;
+	border-style: solid;
+}
+
+.stlfood {
+	max-width: 40%;
+	float:left;
+	padding-left: 80px;
+
+}
+.stlact {
+	max-width: 40%;
+	float: left;
+	padding-left: 40px;
+}
+
 }
 .sfhikes {
 	padding: 10px;
@@ -333,9 +353,10 @@ clear: left;
 	text-align: left;
 }
 #snowmass {
-	background-color: lightseagreen;
+	background-color: steelblue;
 	clear: left;
-	height: 790px;
+	height: 700px;
+
 	
 }
 #snowmass h2 {
@@ -349,8 +370,9 @@ clear: left;
 
 #snowmass img{
 	float: left;
-	max-width: 50%;
+	max-width: 60%;
 	float: left;
+	margin-top: 45px;
 }
 
 #snowmass h3 {
@@ -361,20 +383,18 @@ clear: left;
 .snowmassrestaurants {
 	width: 40%;
 	float: left;
-	background-color: lightseagreen;
-	padding-bottom: 30px;
+	background-color: steelblue;
+	text-align: center;
+	
+}
+#snowmass h2{
+	margin: 0px;
 }
 .snowmasshikes {
-	width: 600px;
+	
 	float: left;
-	padding-left: 50px;
-	background-color: lightseagreen;
-
-}
-.snowmassactivities {
-	width: 400px;
-	background-color: lightseagreen;
-	float: left;
+	background-color: steelblue;
+	text-align: center;
 }
 
 .north_america {
@@ -593,7 +613,7 @@ padding-top: 15px;
 }
 #Patagonia {
 	background-color: lightseagreen;
-	height: 1800px;
+/*	height: 1800px;*/
 	clear: left;
 
 }
@@ -819,4 +839,45 @@ padding-top: 15px;
 
 	padding-bottom: 5px; 
 	padding-top: 20px;
+}
+
+@media all and (max-width: 800px) {
+
+#AboutUs img{
+	max-width: 25%;
+}
+
+.restaurants {
+	clear: left;
+}
+
+#San_Francisco img{
+	max-width: 80%;
+
+}
+
+.col {
+	width: 95%;
+	clear: left;
+}
+#snowmass {
+	height: 1500px;
+	clear: left;
+	text-align: left;
+}
+.snowmassrestaurants{
+	text-align: left;
+}
+.snowmasshikes{
+	text-align: left;
+}
+#elcalafate img{
+	clear: left;
+}
+#elcalafate ul{
+	clear: left;
+}
+}
+
+
 }
