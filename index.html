@@ -190,7 +190,29 @@
 			  });
   			marker5.addListener('click', function() {
     		infowindow5.open(map, marker5);
-  			});						
+  			});
+ 			var marker6 = new google.maps.Marker({
+					position: {lat: 36.162664, lng: -86.781602},
+					map: map,
+					title: 'nashville'
+				});
+				var contentString6 = '<div id="content">'+
+				      '<div id="siteNotice">'+
+				      '</div>'+
+				      '<h1 id="firstHeading" class="firstHeading">Nashville</h1>'+
+				      '<div id="bodyContent">'+
+				      '<p><b>Nashville</b>The Vegas of the south, Nashville is home to some of the best restaurants, live music, and nightlife. Having grown up there, I know the city in and out, and love it! -Meredith Johnston </p>'+
+				      '<a href="NA.html#nashville">'+'Nashville</a> '
+
+				      '</div>'+
+				      '</div>';
+
+			  var infowindow6 = new google.maps.InfoWindow({
+			    content: contentString6
+			  });		
+			  marker6.addListener('click', function() {
+    		infowindow6.open(map, marker6);
+  			});	 									
 			}
 		</script>
  <script async defer
