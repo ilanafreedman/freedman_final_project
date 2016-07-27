@@ -428,10 +428,12 @@ background-color: steelblue;
 	width: 50%;
 	/*text-align: center;*/
 	padding-bottom: 5px; 
+	padding-top: 30px;
 }
 
 #elcalafate p {
 	width: 100%;
+	padding-top: 0px;
 }
 
 #Patagonia ul {
@@ -439,8 +441,9 @@ background-color: steelblue;
 }
 #Patagonia {
 	background-color: lightseagreen;
-	height: 1700px;
+	height: 1800px;
 	clear: left;
+
 }
 #Patagonia h2 {
 	text-align: center;
@@ -465,8 +468,9 @@ background-color: steelblue;
 
 #elcalafate {
 	float: left;
-	width: 100%;
+	width: 95%;
 	padding-left: 20px;
+	border-style: solid;
 }
 
 
@@ -486,9 +490,10 @@ background-color: steelblue;
 
 #elchalten {
 	float: left;
-	width: 80%;
+	width: 95%;
 	padding-left: 20px;
 	padding-top: 10px;
+
 }
 
 #elchalten p {
@@ -511,8 +516,9 @@ background-color: steelblue;
 
 #wtrek {
 	float: left;
-	width: 100%;
+	width: 90%;
 	padding-left: 20px;
+	border-style: solid;
 }
 
 #wtrek ul {
@@ -520,6 +526,7 @@ background-color: steelblue;
 }
 #wtrekcol2 ul {
 	list-style-type: circle;
+	width: 90%;
 }
 #wtrek h3 {
 	padding-left: 15px;
@@ -530,13 +537,13 @@ background-color: steelblue;
 	float: left;
 	padding-top: 10px;
 }
-#wtrek ul {
+#wtrekcol1 ul {
 	width: 40%;
 	float: left;
 }
 #wtrek {
 	float: left;
-	width: 100%;
+	width: 95%;
 	padding-left: 20px;
 	padding-top: 20px;
 }
@@ -544,7 +551,7 @@ background-color: steelblue;
 #ecuador{
 	clear: left;
 	background-color: steelblue;
-	height: 1850px;
+	height: 2100px;
 }
 
 #ecuador h1 {
@@ -555,8 +562,9 @@ background-color: steelblue;
 
 #quito {
 	float: left;
-	width: 100%;
+	width: 95%;
 	padding-left: 20px;
+	border-style: solid;
 		
 }
 
@@ -622,11 +630,11 @@ background-color: steelblue;
 	padding-right: 20px;
 
 }
-#galapagos li{
+/*#galapagos li{
 	background-color: steelblue;
 	width: 500px;
 	float: left;
-}
+}*/
 
 #galapagos p {
 	width: 90%;
@@ -634,17 +642,23 @@ background-color: steelblue;
 	color: black;
 	clear: left;
 }
-#galapagos ul {
+/*#galapagos ul {
 	width: 40%;
 	float: left;
 	margin-left: 10px;
+}*/
+.galapagosinfo {
+	float: left;
+	max-width: 55%;
+	margin-top: 10px;
+	margin-bottom: 10px;
 }
 
 #galapagos img{
 	max-width: 40%;
 	float: right;
-	padding-top: 10px;
-	padding-right: 40px;
+	padding-top: 90px;
+	padding-right: 50px;
 }
 #galapagos h3 {
 	width: 50%;
@@ -655,8 +669,9 @@ background-color: steelblue;
 
 #quilotoa {
 	float: left;
-	width: 100%;
+	width: 95%;
 	padding-left: 20px;
+	border-style: solid;
 		
 }
 
@@ -697,6 +712,13 @@ background-color: steelblue;
 #cotopaxiinfo p{
 	width: 40%;
 	float: left;
+	margin-top: 5px;
+	line-height: 30px;
+}
+
+.quilo2 {
+	float: left;
+	max-width: 100%;
 }
 #quilotoa h3 {
 	width: 50%;
