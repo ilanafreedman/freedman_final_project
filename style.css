@@ -1,0 +1,706 @@
+body {
+	background-color: mediumturquoise;
+	padding: 0px;
+	margin: 0px;
+}
+
+.hoverinfo {
+    position: relative;
+    top: 0px;
+    left: 15px;
+    font-size: 14px;
+    color: #ffffff;
+    cursor: pointer;
+}
+.hoverinfo p {
+    display: none;
+    color: #000000;
+}
+.hoverinfo:hover p {
+    background-color: rgba(255, 255, 255, 0.7);
+    display: block;
+}
+#map {
+	width: 80%;
+	height: 400px;
+	background-color: pink;
+	margin-bottom: 15px;
+	margin-top: 10px;
+	margin-left: 13%;
+	
+	
+}
+
+nav a {
+	text-decoration: none;
+	color: pink;
+
+
+	
+}
+
+nav li {
+
+	margin-right: 15px;
+	float: right;
+
+
+}
+
+
+ul{
+	list-style: none;
+	display: inline-block;
+	padding-left: 0px;
+	margin-top: 40px;
+	width: 100%;
+	margin-top: 10px;
+	float: right;
+}
+h1 {
+	color: white;
+	margin: 0px;
+	margin-left: 10px;
+	height: 30px;
+	line-height: 40px;
+	font-family: tahoma;
+
+}
+#AboutUs a{
+	padding: 25px;
+	max-width: auto;
+
+}
+#AboutUs {
+	padding-left: 150px;
+	color: white;
+	background-image: url("background.jpeg")
+}
+
+#country_nav a {
+	
+	text-decoration: none;
+	color: green;
+	display: block;
+	padding: 10px;
+	padding-top: 0px;
+
+}
+#country_nav ul {
+	
+	list-style: none;
+	display: inline-block;
+	padding: 10px;
+	float:right;
+	margin-top: 240px;
+	padding-top: 0px;
+	background:rgba(255,255,255, 0.3);
+
+}
+
+#country_nav {
+	margin-bottom: 0px;
+	position: fixed;
+	padding-bottom: 0px;
+	padding-left: 5px;
+	text-align: left;
+	padding-top: 0px;
+	height: 300px;
+
+}
+
+#NA_nav{
+	margin-bottom: 0px;
+	position: fixed;
+	padding-bottom: 0px;
+	padding-left: 10px;
+	text-align: left;
+	padding-top: 0px;
+	width: 140px;
+	font-size: 15px;
+
+}
+
+#NA_nav a {
+	
+	text-decoration: none;
+	color: green;
+	display: block;
+	padding: 5px;
+	padding-top: 0px;
+	padding-left: 15px;
+
+
+}
+#NA_nav ul {
+	
+	list-style: none;
+	display: inline-block;
+	padding: 10px;
+	margin-top: 10px;
+	padding-top: 0px;
+	background:rgba(255,255,255, 0.6);
+
+}
+.restaurants {
+	float: left;
+	max-width: 50%;
+	margin-bottom: 0px;
+	padding-bottom: 0px;
+}
+
+.intro_p {
+	color: white;
+	float:left;
+	text-align: center;
+	border: solid;
+	margin: 15px;
+	padding-top: 10px;
+	font-family: arial;
+
+}
+
+#footer {
+	background-color: black;
+	margin-top: 10px;
+	clear: left;
+/*	width: auto;*/
+}
+#footer li{
+
+	clear: left;
+	height: 30px;
+
+}
+
+#footer nav{
+
+	padding-bottom: 0px;
+	margin-bottom: 0px;
+}
+#footer p {
+	
+	margin-top: 0px;
+	margin-bottom: 0px;
+/*	background-color: black;*/
+	width: 100%;
+	clear: left;
+}
+#footer a {
+	margin: 0px;
+	clear: left;
+	height: 30px;
+	background-color: black;
+
+}
+
+header {
+	clear: left;
+	background-color: black;
+	height: 70px;
+	margin-top: 0px;
+	color: white;
+}
+
+#houston h2 {
+	clear: left;
+}
+#San_Francisco ul{
+	list-style-type: circle;
+	margin-top: 0px;
+}
+
+}
+h2 {
+	padding-left: 40%;
+	color:white;
+	text-align: center;
+	margin-top: 0px;
+	display: block;
+	margin-left: 150px;
+}
+#AboutUs p {
+	padding-left: 0px;
+	max-width: 90%;
+	
+}
+h3 {
+	float: left;
+	margin: 0px;
+	color: black;
+}
+
+.sfhikes h3{
+float: left;
+background-color: lightseagreen;
+width: 100%;
+text-align: left;
+}
+.sftodo h3{
+	clear: left;
+	padding: 5px;
+	text-align: left;
+	width: 100%;
+}
+p {
+	color: green;
+	margin-bottom: 15px;
+}
+
+#San_Francisco img{
+	max-width: 40%;
+	float: left;
+	padding-top: 0px;
+	margin: 5px;
+}
+#San_Francisco h3 {
+	width: 100%;
+	/*text-align: center;*/
+	padding-bottom: 5px; 
+}
+#San_Francisco {
+	background-color: lightseagreen;
+	/*height: 1570px;*/
+	clear: left;
+}
+#San_Francisco h2 {
+	text-align: center;
+	width: 100%;
+	color: white;
+}
+
+#San_Francisco li {
+	background-color: lightseagreen;
+	padding-left: 10px;
+	margin-left: 30px;
+	padding-top: 5px;
+/*	text-align: right;*/
+}
+#San_Francisco p {
+	margin-bottom: 5px;
+	color: black;
+}
+
+.col {
+	width: 150px;
+	float: left;
+	padding-left: 40px;
+
+}
+
+#houston {
+	clear: left;
+	background-color: steelblue;
+	height: 600px;
+
+}
+b {
+	background-color: steelblue;
+}
+
+#houston img{
+max-width: 65%;
+clear: left;
+background-color: steelblue;
+}
+
+#houston p{
+		color: black;
+		padding-left: 15px;
+		margin-top: 5px;
+		margin-bottom: 0px;
+}
+
+.houstontodo {
+	margin: 10px;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+.sfhikes {
+	padding: 10px;
+	padding-top: 0px;
+	text-align: left;
+	float: left;
+}
+
+.sfhikes li{
+	text-align: left;
+}
+#snowmass {
+	background-color: lightseagreen;
+	clear: left;
+	height: 790px;
+	
+}
+#snowmass h2 {
+	clear: left;
+}
+
+#snowmass p {
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+#snowmass img{
+	float: left;
+	max-width: 50%;
+	float: left;
+}
+
+#snowmass h3 {
+	float: left;
+	width: 99%;
+}
+
+.snowmassrestaurants {
+	width: 40%;
+	float: left;
+	background-color: lightseagreen;
+	padding-bottom: 30px;
+}
+.snowmasshikes {
+	width: 600px;
+	float: left;
+	padding-left: 50px;
+	background-color: lightseagreen;
+
+}
+.snowmassactivities {
+	width: 400px;
+	background-color: lightseagreen;
+	float: left;
+}
+
+.north_america {
+	padding-left: 130px;
+	margin: 30px;
+	margin-top: 5px;
+	padding-bottom: 0px;
+}
+
+.south_america {
+	padding-left: 130px;
+	margin: 30px;
+	margin-top: 5px;
+	padding-bottom: 0px;
+}
+
+#SA_nav{
+	margin-bottom: 0px;
+	position: fixed;
+	padding-bottom: 0px;
+	padding-left: 5px;
+	text-align: left;
+	padding-top: 0px;
+	width: 140px;
+	font-size: 15px;
+}
+
+
+#SA_nav a {
+	
+	text-decoration: none;
+	color: green;
+	display: block;
+/*	padding: 10px;*/
+	padding-top: 0px;
+
+
+}
+#SA_nav ul {
+	
+	list-style: none;
+	display: inline-block;
+	padding-left: 10px;
+	padding-top: 0px;
+	background:rgba(255,255,255, 0.6);
+
+}
+
+#elcalafate img{
+	max-width: 40%;
+	float: right;
+	padding-top: 0px;
+	margin: 5px;
+	padding-right: 5%;
+}
+#elcalafate h3 {
+	width: 50%;
+	/*text-align: center;*/
+	padding-bottom: 5px; 
+}
+
+#elcalafate p {
+	width: 100%;
+}
+
+#Patagonia ul {
+	float: left;
+}
+#Patagonia {
+	background-color: lightseagreen;
+	height: 1700px;
+	clear: left;
+}
+#Patagonia h2 {
+	text-align: center;
+	width: 100%;
+	color: white;
+}
+
+#Patagonia li {
+	background-color: lightseagreen;
+	padding-left: 10px;
+	margin-left: 30px;
+	padding-top: 5px;
+/*	text-align: right;*/
+}
+#Patagonia p {
+	margin-bottom: 5px;
+	color: black;
+	float: left;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+#elcalafate {
+	float: left;
+	width: 100%;
+	padding-left: 20px;
+}
+
+
+#elcalafate h3 {
+	padding-left: 15px;
+}
+#elcalafate p {
+	width: 40%;
+	padding-left: 15px;
+	float: left;
+}
+#elcalafate ul {
+	width: 50%;
+	float: left;
+	list-style-type: circle;
+}
+
+#elchalten {
+	float: left;
+	width: 80%;
+	padding-left: 20px;
+	padding-top: 10px;
+}
+
+#elchalten p {
+	width: 100%;
+}
+#elchalten ul {
+		list-style-type: circle;
+		width: 50%;
+		float: right;
+		padding-right: 0px;
+}
+
+
+#wtrek img{
+	max-width: 40%;
+	float: left;
+	padding-top: 0px;
+	margin: 10px;
+}
+
+#wtrek {
+	float: left;
+	width: 100%;
+	padding-left: 20px;
+}
+
+#wtrek ul {
+		list-style-type: circle;
+}
+#wtrekcol2 ul {
+	list-style-type: circle;
+}
+#wtrek h3 {
+	padding-left: 15px;
+}
+#wtrek p {
+	width: 50%;
+	padding-left: 15px;
+	float: left;
+	padding-top: 10px;
+}
+#wtrek ul {
+	width: 40%;
+	float: left;
+}
+#wtrek {
+	float: left;
+	width: 100%;
+	padding-left: 20px;
+	padding-top: 20px;
+}
+
+#ecuador{
+	clear: left;
+	background-color: steelblue;
+	height: 1850px;
+}
+
+#ecuador h1 {
+	color: white;
+	text-align: center;
+	padding: 15px;
+}
+
+#quito {
+	float: left;
+	width: 100%;
+	padding-left: 20px;
+		
+}
+
+#quito ul {
+	list-style-type: circle;
+	background-color: steelblue;
+	float: left;
+
+}
+#quito li{
+	background-color: steelblue;
+	width: 100%;
+}
+#quito h3 {
+	padding-left: 15px;
+	text-align: center;
+
+}
+#quito p {
+	width: 50%;
+	padding-left: 15px;
+	color: black;
+	float: left;
+}
+#quito ul {
+	width: 50%;
+	float: left;
+	margin-left: 30px;
+}
+
+
+#quito img{
+	max-width: 40%;
+	float: left;
+	padding-top: 20px;
+	margin: 0px;
+	padding-left: 10px;
+}
+#quito h3 {
+	width: 50%;
+	/*text-align: center;*/
+	padding-bottom: 5px; 
+}
+#row2{
+	float: left;
+	width: 100%;
+	padding-left: 100px;
+	margin-right: 30px;
+}
+
+
+#galapagos {
+	float: left;
+	width: 100%;
+	padding-left: 20px;
+		
+}
+
+#galapagos ul {
+	list-style-type: circle;
+	background-color: steelblue;
+	clear: left;
+	padding-right: 20px;
+
+}
+#galapagos li{
+	background-color: steelblue;
+	width: 500px;
+	float: left;
+}
+
+#galapagos p {
+	width: 90%;
+	padding-left: 10px; 
+	color: black;
+	clear: left;
+}
+#galapagos ul {
+	width: 40%;
+	float: left;
+	margin-left: 10px;
+}
+
+#galapagos img{
+	max-width: 40%;
+	float: right;
+	padding-top: 10px;
+	padding-right: 40px;
+}
+#galapagos h3 {
+	width: 50%;
+	/*text-align: center;*/
+	padding-bottom: 5px; 
+	padding-top: 20px;
+}
+
+#quilotoa {
+	float: left;
+	width: 100%;
+	padding-left: 20px;
+		
+}
+
+#quilotoa ul {
+	list-style-type: circle;
+	background-color: steelblue;
+	clear: left;
+	padding-right: 20px;
+
+}
+#quilotoa li{
+	background-color: steelblue;
+	width: 500px;
+	float: left;
+}
+
+#quilotoa p {
+	width: 80%;
+	padding-left: 40px; 
+	color: black;
+	clear: left;
+}
+#quilotoa ul {
+	width: 40%;
+	float: left;
+	margin-left: 10px;
+}
+#quilotoa img {
+	width: 50%;
+	padding-left: 10px;
+	clear: right;
+
+}
+/*#cotopaxiinfo{
+	clear: left;
+
+}*/
+#cotopaxiinfo p{
+	width: 40%;
+	float: left;
+}
+#quilotoa h3 {
+	width: 50%;
+	/*text-align: center;*/
+	padding-bottom: 5px; 
+	padding-top: 20px;
+}
