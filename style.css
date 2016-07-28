@@ -78,7 +78,12 @@ h1 {
 #AboutUs {
 	padding-left: 150px;
 	color: white;
-	background-image: url("background.jpeg")
+
+
+}
+#AboutUs img{
+	width: 95%;
+
 }
 
 #country_nav a {
@@ -96,7 +101,7 @@ h1 {
 	display: inline-block;
 	padding: 10px;
 	float:right;
-	margin-top: 300px;
+	margin-top: 270px;
 	padding-top: 0px;
 	background:rgba(255,255,255, 0.3);
 
@@ -195,6 +200,36 @@ h1 {
 	font-family: arial;
 
 }
+.africa h1 {
+	text-align: center;
+	border: solid;
+	color:white;
+	line-height: 30px;
+	padding: 20px;
+}
+.south_america h1 {
+	text-align: center;
+	border: solid;
+	color:white;
+	line-height: 30px;
+	padding: 20px;
+}
+#australia h1{
+	text-align: center;
+	border: solid;
+	color:white;
+	line-height: 30px;
+	padding: 20px;
+}
+
+.asia h1 {
+	text-align: center;
+	border: solid;
+	color:white;
+	line-height: 30px;
+	padding: 20px;
+}
+
 
 #footer {
 	background-color: black;
@@ -258,8 +293,10 @@ h2 {
 	margin-left: 150px;
 }
 #AboutUs p {
-	padding-left: 0px;
+	padding-left: 30px;
 	max-width: 90%;
+	color: black;
+
 	
 }
 h3 {
@@ -372,6 +409,7 @@ clear: left;
 	float: left;
 	padding-left: 40px;
 }
+
 
 }
 .sfhikes {
@@ -910,7 +948,6 @@ padding-top: 15px;
 }
 #quilotoa h3 {
 	width: 50%;
-
 	padding-bottom: 5px; 
 	padding-top: 20px;
 }
@@ -924,7 +961,23 @@ padding-top: 15px;
 	width: 140px;
 	font-size: 15px;
 }
+#cq{
+	clear: left;
+	background-color: lightsteelblue;
+	border-style: solid;
+	height: 700px;
+}
 
+.cqstuff {
+	max-width: 40%;
+	float:left;
+	padding-left: 80px;
+
+}
+#cq img{
+	width: 45%;
+	padding-left: 40px;
+}
 
 #africa_nav a {
 	
