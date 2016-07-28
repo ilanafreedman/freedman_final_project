@@ -409,7 +409,9 @@ clear: left;
 	float: left;
 	padding-left: 40px;
 }
-
+/*#stlouis h3{
+	padding-left: 50%;
+}*/
 
 }
 .sfhikes {
@@ -831,7 +833,7 @@ padding-top: 15px;
 #ecuador h1 {
 	color: white;
 	text-align: center;
-	padding: 15px;
+	
 }
 
 #quito {
@@ -1052,12 +1054,11 @@ padding-top: 15px;
 	padding-right: 5px;
 	float: right;
 	max-width: 40%;
+
 }
 @media all and (max-width: 900px) {
 
-#AboutUs img{
-	max-width: 25%;
-}
+
 
 .restaurants {
 	clear: left;
