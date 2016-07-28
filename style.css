@@ -96,7 +96,7 @@ h1 {
 	display: inline-block;
 	padding: 10px;
 	float:right;
-	margin-top: 240px;
+	margin-top: 300px;
 	padding-top: 0px;
 	background:rgba(255,255,255, 0.3);
 
@@ -146,6 +146,38 @@ h1 {
 	background:rgba(255,255,255, 0.6);
 
 }
+#country_navNA a {
+	
+	text-decoration: none;
+	color: green;
+	display: block;
+	padding: 10px;
+	padding-top: 0px;
+
+}
+#country_navNA ul {
+	
+	list-style: none;
+	display: inline-block;
+	padding: 10px;
+	float:right;
+	margin-top: 310px;
+	padding-top: 0px;
+	background:rgba(255,255,255, 0.3);
+
+}
+
+#country_navNA {
+	margin-bottom: 0px;
+	position: fixed;
+	padding-bottom: 0px;
+	padding-left: 5px;
+	text-align: left;
+	padding-top: 0px;
+	height: 300px;
+
+}
+
 .restaurants {
 	float: left;
 	max-width: 50%;
@@ -473,6 +505,38 @@ clear: left;
 	background:rgba(255,255,255, 0.6);
 
 }
+
+#australia_nav{
+	margin-bottom: 0px;
+	position: fixed;
+	padding-bottom: 0px;
+	padding-left: 5px;
+	text-align: left;
+	padding-top: 0px;
+	width: 140px;
+	font-size: 15px;
+}
+
+
+#australia_nav a {
+	
+	text-decoration: none;
+	color: green;
+	display: block;
+/*	padding: 10px;*/
+	padding-top: 0px;
+
+
+}
+#australia_nav ul {
+	
+	list-style: none;
+	display: inline-block;
+	padding-left: 10px;
+	padding-top: 0px;
+	background:rgba(255,255,255, 0.6);
+
+}
 .asia {
 	padding-left: 130px;
 	margin: 30px;
@@ -590,11 +654,12 @@ padding-top: 15px;
 
 
 #elcalafate img{
-	max-width: 40%;
+	max-width: 35%;
 	float: right;
 	padding-top: 0px;
 	margin: 5px;
-	padding-right: 5%;
+	padding-bottom: 5px;
+	padding-right: 7%;
 }
 #elcalafate h3 {
 	width: 50%;
@@ -606,6 +671,7 @@ padding-top: 15px;
 #elcalafate p {
 	width: 100%;
 	padding-top: 0px;
+	
 }
 
 #Patagonia ul {
@@ -659,6 +725,7 @@ padding-top: 15px;
 	width: 50%;
 	float: left;
 	list-style-type: circle;
+	line-height: 30px;
 }
 
 #elchalten {
@@ -679,7 +746,14 @@ padding-top: 15px;
 		padding-right: 0px;
 }
 
-
+#elchalten img{
+	max-width: 30%;
+	float: left;
+	padding-top: 0px;
+	padding-left: 10%;
+	margin: 10px;
+	padding-bottom: 30px;
+}
 #wtrek img{
 	max-width: 47%;
 	float: left;
@@ -817,7 +891,7 @@ padding-top: 15px;
 }
 
 #quilotoa img {
-	width: 50%;
+	width: 40%;
 	padding-left: 10px;
 	clear: left;
 
@@ -840,8 +914,93 @@ padding-top: 15px;
 	padding-bottom: 5px; 
 	padding-top: 20px;
 }
+#africa_nav{
+	margin-bottom: 0px;
+	position: fixed;
+	padding-bottom: 0px;
+	padding-left: 5px;
+	text-align: left;
+	padding-top: 0px;
+	width: 140px;
+	font-size: 15px;
+}
 
-@media all and (max-width: 800px) {
+
+#africa_nav a {
+	
+	text-decoration: none;
+	color: green;
+	display: block;
+/*	padding: 10px;*/
+	padding-top: 0px;
+
+
+}
+#africa_nav ul {
+	
+	list-style: none;
+	display: inline-block;
+	padding-left: 10px;
+	padding-top: 0px;
+	background:rgba(255,255,255, 0.6);
+
+}
+.africa {
+	padding-left: 130px;
+	margin: 30px;
+	margin-top: 5px;
+	padding-bottom: 0px;
+}
+
+#capetown {
+	clear: left;
+	background-color: steelblue;
+	height: 700px;
+}
+
+#capetown img{
+max-width: 30%;
+float: left;
+padding-left: 10px;
+/*background-color: steelblue;*/
+padding-right: 15px;
+padding-top: 15px;
+}
+
+#capetown p{
+		color: black;
+		padding-left: 15px;
+		margin-top: 5px;
+		margin-bottom: 0px;
+}
+
+.capetownitin {
+	margin: 10px;
+	padding-left: 15px;
+	padding-right: 5px;
+}
+.ctfood {
+	margin: 10px;
+	padding-left: 5px;
+	padding-right: 5px;
+	clear: left;
+	padding-top: 15px;
+}
+.ctact {
+	margin: 0px;
+	padding-left: 5px;
+	padding-right: 5px;
+	float: left;
+	max-width: 40%;
+}
+.ctextra {
+	margin: 10px;
+	padding-left: 5px;
+	padding-right: 5px;
+	float: right;
+	max-width: 40%;
+}
+@media all and (max-width: 900px) {
 
 #AboutUs img{
 	max-width: 25%;
@@ -877,6 +1036,8 @@ padding-top: 15px;
 #elcalafate ul{
 	clear: left;
 }
+#capetown{
+	height:1000px;
 }
 
 

@@ -279,7 +279,29 @@
 			  });
   			marker9.addListener('click', function() {
     		infowindow9.open(map, marker9);
-  			});									  
+  			});	
+  			var marker10 = new google.maps.Marker({
+					position: {lat: -33.9249, lng: 18.4241},
+					map: map,
+					title: 'capetown'
+				});
+				var contentString10 = '<div id="content">'+
+				      '<div id="siteNotice">'+
+				      '</div>'+
+				      '<h1 id="firstHeading" class="firstHeading">Cape Town</h1>'+
+				      '<div id="bodyContent">'+
+				      '<p><b>Cape Town</b>, A very cosmopolitan city at the foothills of mountains and on the water. There is an amazing mix of cultures, art, music, and food. It is the best vacation for someone who wants to lay on the beach in the lap of luxury, but also do some fun activities!  - Lizzie Graham </p>'+
+				      '<a href="Africa.html#capetown">'+'Cape Town</a> '
+
+				      '</div>'+
+				      '</div>';
+
+			  var infowindow10 = new google.maps.InfoWindow({
+			    content: contentString10
+			  });
+  			marker10.addListener('click', function() {
+    		infowindow10.open(map, marker10);
+  			});											  
 			}
 		</script>
  <script async defer
