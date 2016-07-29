@@ -321,6 +321,11 @@ h2 {
 	display: block;
 	margin-left: 150px;
 }
+
+#AboutUs h2 {
+
+	text-align: center;
+}
 #AboutUs p {
 	padding-left: 30px;
 	max-width: 90%;
@@ -476,7 +481,7 @@ clear: left;
 	float: left;
 	max-width: 60%;
 	float: left;
-	margin-top: 45px;
+/*	margin-top: 45px;*/
 }
 
 #snowmass h3 {
@@ -832,9 +837,9 @@ padding-top: 15px;
 #wtrek img{
 	max-width: 47%;
 	float: left;
-	padding-top: 0px;
-	margin: 10px;
-	padding-bottom: 30px;
+	padding-top: 10px;
+/*	margin: 10px;*/
+	/*padding-bottom: 30px;*/
 }
 
 #wtrek {
@@ -890,6 +895,8 @@ padding-top: 15px;
 	padding-left: 15px;
 	color: black;
 	float: left;
+	margin: 5px;
+	padding-top: 10px; 
 }
 .quitoact {
 	float: left;
@@ -922,16 +929,14 @@ padding-top: 15px;
 
 
 #galapagos p {
-/*	width: 90%;*/
 	padding-left: 10px; 
 	color: black;
-	/*clear: left;*/
 }
 
 .galapagosinfo {
 	float: left;
 	margin-bottom: 10px;
-	overflow: auto;
+/*	overflow: auto;*/
 	max-width: 58%;
 	padding-left: 15px;
 }
