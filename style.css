@@ -15,14 +15,41 @@ body {
     font-size: 14px;
     color: #ffffff;
     cursor: pointer;
+
 }
 .hoverinfo p {
     display: none;
     color: #000000;
+
 }
 .hoverinfo:hover p {
     background-color: rgba(255, 255, 255, 0.7);
     display: block;
+
+}
+
+.hoverbox {
+    position: relative;
+    top: 0px;
+    left: 15px;
+    font-size: 14px;
+    color: #ffffff;
+    cursor: pointer;
+
+}
+.hoverbox p {
+    display: none;
+    color: #000000;
+  
+
+}
+.hoverbox:hover p {
+    background-color: rgba(255, 255, 255, 0.7);
+    display: block;
+}
+
+.outline:hover {
+	border: solid;
 }
 #map {
 	width: 80%;
@@ -592,6 +619,7 @@ clear: left;
 #kathmandu {
 	clear: left;
 	background-color: steelblue;
+	padding: 10px;
 /*	height: 600px;*/
 }
 
@@ -606,7 +634,7 @@ padding-top: 15px;
 
 #kathmandu p{
 		color: black;
-		padding-left: 15px;
+		padding-left: 0px;
 		margin-top: 5px;
 		margin-bottom: 0px;
 }
@@ -617,8 +645,8 @@ padding-top: 15px;
 	padding-right: 5px;
 }
 .katfood {
-	margin: 10px;
-	padding-left: 5px;
+/*	margin: 0px;
+	padding-left: 0px;*/
 	padding-right: 5px;
 }
 .katact {
