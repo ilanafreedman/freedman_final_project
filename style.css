@@ -3,7 +3,7 @@
 
 
 body {
-	background-color: mediumturquoise;
+	background-color: royalblue;
 	padding: 0px;
 	margin: 0px;
 }
@@ -89,7 +89,7 @@ h1 {
 #country_nav a {
 	
 	text-decoration: none;
-	color: green;
+	color: black;
 	display: block;
 	padding: 10px;
 	padding-top: 0px;
@@ -133,7 +133,7 @@ h1 {
 #NA_nav a {
 	
 	text-decoration: none;
-	color: green;
+	color: black;
 	display: block;
 	padding: 5px;
 	padding-top: 0px;
@@ -154,7 +154,7 @@ h1 {
 #country_navNA a {
 	
 	text-decoration: none;
-	color: green;
+	color: black;
 	display: block;
 	padding: 10px;
 	padding-top: 0px;
@@ -197,6 +197,8 @@ h1 {
 	border: solid;
 	margin: 15px;
 	padding-top: 10px;
+	padding-left: 15px;
+	padding-right: 15px;
 	font-family: arial;
 
 }
@@ -318,7 +320,7 @@ text-align: left;
 	width: 100%;
 }
 p {
-	color: green;
+	color: silver;
 	margin-bottom: 15px;
 }
 
@@ -334,9 +336,10 @@ p {
 	padding-bottom: 5px; 
 }
 #San_Francisco {
-	background-color: lightseagreen;
+	background-color: lightskyblue;
 	/*height: 1570px;*/
 	clear: left;
+	padding: 10px;
 }
 #San_Francisco h2 {
 	text-align: center;
@@ -369,6 +372,7 @@ p {
 #houston {
 	clear: left;
 	background-color: steelblue;
+	padding: 10px;
 /*	height: 600px;*/
 }
 
@@ -395,19 +399,20 @@ clear: left;
 #stlouis{
 	clear: left;
 	background-color: lightsteelblue;
-	border-style: solid;
+	
+	padding: 10px;
 }
 
 .stlfood {
 	max-width: 40%;
 	float:left;
-	padding-left: 80px;
+	padding-left: 60px;
 
 }
 .stlact {
 	max-width: 40%;
 	float: left;
-	padding-left: 40px;
+	padding-left: 100px;
 }
 /*#stlouis h3{
 	padding-left: 50%;
@@ -498,7 +503,7 @@ clear: left;
 #SA_nav a {
 	
 	text-decoration: none;
-	color: green;
+	color: black;
 	display: block;
 /*	padding: 10px;*/
 	padding-top: 0px;
@@ -529,7 +534,7 @@ clear: left;
 #Asia_nav a {
 	
 	text-decoration: none;
-	color: green;
+	color: black;
 	display: block;
 /*	padding: 10px;*/
 	padding-top: 0px;
@@ -561,7 +566,7 @@ clear: left;
 #australia_nav a {
 	
 	text-decoration: none;
-	color: green;
+	color: black;
 	display: block;
 /*	padding: 10px;*/
 	padding-top: 0px;
@@ -636,7 +641,7 @@ padding-top: 15px;
 #Australia a {
 	
 	text-decoration: none;
-	color: green;
+	color: silver;
 	display: block;
 /*	padding: 10px;*/
 	padding-top: 0px;
@@ -718,7 +723,7 @@ padding-top: 15px;
 	float: left;
 }
 #Patagonia {
-	background-color: lightseagreen;
+	background-color: lightskyblue;
 /*	height: 1800px;*/
 	clear: left;
 
@@ -730,7 +735,7 @@ padding-top: 15px;
 }
 
 #Patagonia li {
-	background-color: lightseagreen;
+	background-color: lightskyblue;
 	padding-left: 10px;
 	margin-left: 30px;
 	padding-top: 5px;
@@ -748,8 +753,9 @@ padding-top: 15px;
 #elcalafate {
 	float: left;
 	width: 95%;
-	padding-left: 20px;
+	padding: 10px;
 	border-style: solid;
+
 }
 
 
@@ -766,6 +772,7 @@ padding-top: 15px;
 	float: left;
 	list-style-type: circle;
 	line-height: 30px;
+
 }
 
 #elchalten {
@@ -984,7 +991,7 @@ padding-top: 15px;
 #africa_nav a {
 	
 	text-decoration: none;
-	color: green;
+	color: black;
 	display: block;
 /*	padding: 10px;*/
 	padding-top: 0px;
